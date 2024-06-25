@@ -2,9 +2,9 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[* System  ❯❯❯](bold blue) $os $username$hostname $time $battery $memory_usage
-[* Project ❯❯❯](cyan bold) $directory $cmd_duration
-[* Status  ❯❯❯](bold green) $conda\
+[󰥺 System  ❯❯❯](bold blue) $os $username$hostname $time $battery $memory_usage
+[󰥺 Project ❯❯❯](cyan bold) $directory $cmd_duration
+[󰥺 Status  ❯❯❯](bold green) $conda\
 $localip\
 $shlvl\
 $singularity\
