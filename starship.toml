@@ -4,8 +4,7 @@
 format = """
 [󰥺 System  ❯❯❯](bold blue) $os $username$hostname $time $battery $memory_usage
 [󰥺 Project ❯❯❯](cyan bold) $directory $cmd_duration
-[󰥺 Status  ❯❯❯](bold green) $conda\
-$localip\
+[󰥺 Status  ❯❯❯](bold green) $localip\
 $shlvl\
 $singularity\
 $kubernetes\
@@ -75,6 +74,7 @@ $crystal\
 $custom\
 $sudo\
 $line_break\
+$conda\
 $jobs\
 $status\
 $container\
