@@ -184,5 +184,5 @@
     
     > git add .
     > git commit -m "first commit" 
-    git push -uf origin main
+    > git push -uf origin main
 
