@@ -2,9 +2,9 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[╭─System  ❯❯❯](bold blue) $os $username$hostname $time $battery $memory_usage
-[| Project ❯❯❯](bold green) $directory $cmd_duration
-[╰─Status  ❯❯❯](bold green) $conda\
+[* System  ❯❯❯](bold blue) $os $username$hostname $time $battery $memory_usage
+[* Project ❯❯❯](cyan bold) $directory $cmd_duration
+[* Status  ❯❯❯](bold green) $conda\
 $localip\
 $shlvl\
 $singularity\
@@ -103,7 +103,7 @@ fi
 echo "$GIT_REMOTE_SYMBOL "
 """
 when = 'git rev-parse --is-inside-work-tree 2> /dev/null'
-style = "blue"
+style = "white"
 format = '[$output]($style) '
 
 [custom.git_scope]
@@ -114,8 +114,8 @@ printf "%s (%s)" \
   "$(if [ -n "$GIT_AUTHOR_NAME" ]; then echo "$GIT_AUTHOR_NAME"; else git config user.name; fi)"
 '''
 description = 'The currently configured Git user.{email,name}'
-format = ' $output '
-style = 'blue'
+format = ' [$output]($style) '
+style = 'bright-yellow bold'
 when = 'git rev-parse --is-inside-work-tree'
 
 [custom.git_last_commit]
@@ -196,7 +196,7 @@ disabled = false
 [directory]
 truncation_length = 100
 truncate_to_repo = false
-format = "[$path]($style)[$lock_symbol]($lock_style) "
+#format = "[$path]($style)[$lock_symbol]($lock_style) "
 #format = "[$path]($style)"
 
 [directory.substitutions]
