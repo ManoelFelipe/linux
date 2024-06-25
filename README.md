@@ -155,5 +155,34 @@
     > conda install scikit-learn-intelex
     > conda install statsmodels
     
-    13) GIT
+    13) SSH e GIT_HUB
+        1) Gerar a Chave
+        #ssh-keygen
+        2) Copiar a chave para o cadastrar no github
+        cat ~/.ssh/id_rsa.pub
+        3) Testar a conexão
+        ssh -T git@github.com
+        
+    > git init
+    > git config --global user.email "mfcf86@gmail.com"
+    > git config --global user.name "ManoelFelipe"
+    > git config --list
+    
+    below is used to add a new remote:
+    > git remote add origin git@github.com:User/UserRepo.git
+    below is used to change the url of an existing remote repository:
+    > git remote set-url origin git@github.com:User/UserRepo.git
+    
+    > git remote -v
+    
+    
+    > git branch -M main
+    > git status
+    
+    # O git pull é um comando usado para atualizar suas branches locais de acordo com as branches remotas. Ele é uma combinação de dois comandos: git fetch seguido por git merge.
+    > git pull origin main
+    
+    > git add .
+    > git commit -m "first commit" 
+    git push -uf origin main
 
