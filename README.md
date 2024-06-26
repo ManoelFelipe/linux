@@ -1,8 +1,8 @@
-# linux
+# Linux - Ambiente de desenvolvimento
 
     1) Install Ubuntu
     
-    > sudo apt-get update && sudo apt-get upgrade
+    > sudo apt update && sudo apt upgrade
 
     2) Install ZSH
 
