@@ -186,3 +186,12 @@
     > git commit -m "first commit" 
     > git push -uf origin main
 
+    14) WSL - Export and Import
+    
+    > wsl --export Ubuntu_22.04-1 c:\Users\manoe\OneDrive\TI\ubuntu-22.04_13_09_23.tar    
+    > wsl --import Ubuntu_22.04-2 C:\Linux\Ubuntu_16_04_24 c:\Users\manoe\OneDrive\TI\WSL\ubuntu-22.04_16_04_24.tar
+
+
+    15) Comando variados úteis
+    > find ~/Projetos -type f -name "*.Identifier" -exec rm -f {} \;
+    > find ~/Projetos -name "*.Identifier"
