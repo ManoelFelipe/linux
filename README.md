@@ -41,6 +41,11 @@
     zinit self-update
     zinit update --all
     
+    Em .zshrc
+    # dump zcompdump files into new dir instead of home dir
+    export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST-$ZSH_VERSION
+
+
     5) Ajustando as Fontes
     Instalando fontes
     Nerd fonts(ícones) --> https://github.com/ryanoasis/nerd-fonts/
