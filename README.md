@@ -1,10 +1,9 @@
 # Guia para Ambiente de desenvolvimento no Linux
 
 Para Ubuntu em: 
-> ubuntu: <https://github.com/ManoelFelipe/linux/blob/main/ubuntu.md>
-> /arch.md
+> [ubuntu.md](/ubuntu.md)
 
-[Test](/arch.md)
+>[arch.md](/arch.md)
 
 Para Arch em: 
 > arch: <https://github.com/ManoelFelipe/linux/blob/main/arch.md>
