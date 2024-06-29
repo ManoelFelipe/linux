@@ -1,4 +1,4 @@
-# Linux - Ambiente de desenvolvimento - Ubuntu
+# Linux - Ambiente de Desenvolvimento - Ubuntu
 
 1) Install Ubuntu
 
