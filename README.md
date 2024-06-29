@@ -4,7 +4,7 @@ Para Ubuntu em:
 > ubuntu: <https://github.com/ManoelFelipe/linux/blob/main/ubuntu.md>
 > /arch.md
 
-[Contribution guidelines for this project](/arch.md)
+[Test](/arch.md)
 
 Para Arch em: 
 > arch: <https://github.com/ManoelFelipe/linux/blob/main/arch.md>
