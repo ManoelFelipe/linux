@@ -7,4 +7,4 @@ Para Arch em:
 > [arch.md](/arch.md)
 
 Exemplo de configuração no starchip em: 
-> starship.toml <https://github.com/ManoelFelipe/linux/blob/main/starship.toml>
+> [starship.toml](/starship.toml)
