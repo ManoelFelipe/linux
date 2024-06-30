@@ -12,13 +12,19 @@ Se não aparecer pode executar novamente o Arch.exe
 Quando entrar pelo WSL 
 
 Definir a senha do root
+
 > [root@PC-NAME]# passwd
 
 Depois:
-> [root@PC-NAME]# echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/wheel
 (setup sudoers file.)
-> [root@PC-NAME]# useradd -m -G wheel -s /bin/bash {username}
+
+> [root@PC-NAME]# echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/wheel
+
+
 (add user)
+
+> [root@PC-NAME]# useradd -m -G wheel -s /bin/bash {username}
+
 
 > [root@PC-NAME]# passwd {username}
 (set default user password)
@@ -27,14 +33,19 @@ No meu caso.
 > passwd manel
 
 Voltando na pasta do windows para definir o usuário
+Usar o cmd para esse comando
+
 > Arch.exe config --default-user {username}
 (setting to default user)
 
 Quando entrar no Arch 
 
 > sudo pacman-key --init
+
 > sudo pacman-key --populate
+
 > sudo pacman -Sy archlinux-keyring
+
 > sudo pacman -Su
 
 > sudo pacman -Syyuu
