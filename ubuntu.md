@@ -72,6 +72,7 @@ Opcional: Spaceship --> https://spaceship-prompt.sh/config/intro/
     
 7) Instalando ASDF --> https://asdf-vm.com/guide/getting-started.html
 > git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+
     
 8) Instalar EXA: 
 > sudo apt-get install exa
@@ -164,6 +165,8 @@ Se precisar:
 > conda install scikit-learn
 > conda install scikit-learn-intelex
 > conda install statsmodels
+
+> jupyter notebook --no-browser
    
 13) SSH e GIT_HUB
 
