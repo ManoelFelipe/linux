@@ -53,6 +53,7 @@ Quando entrar no Arch
 > sudo pacman -Sy wget openssh
 
 > nano ~/.nanorc
+
 include /usr/share/nano/sh.nanorc
  
 
@@ -61,22 +62,29 @@ Site: <https://aur.archlinux.org/>
 
 Para isso precisamos **yay** - <https://github.com/Jguer/yay>
 > sudo pacman -S --needed git base-devel
+
 > cd /tmp
+
 > git clone https://aur.archlinux.org/yay.git
+
 > cd yay
+
 > makepkg -si
 
+> rm -rf yay
 
 ## 3) ZSH, Oh My ZSH ang pluguins
 
 Install ZSH - <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
-> pacman -S zsh
+> sudo pacman -S zsh
+
 ou
+
 > yay -Sy zsh
 
 
 Configurar o terminal zsh como default. OBS: Será necessário fazer um logout para salvar
-> chsh -s $(which zsh)
+> chsh -s /usr/bin/zsh
 
 Pacotes que pdem ser necessario: curl git
 
@@ -98,6 +106,7 @@ Adicione no final do .zshrc
 
     
 > zinit self-update
+
 > zinit update --all
     
 Em .zshrc
