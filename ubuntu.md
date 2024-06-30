@@ -1,4 +1,4 @@
-# Linux - Ambiente de Desenvolvimento - Ubuntu
+# Linux - Ambiente de desenvolvimento - Ubuntu
 
 1) Install Ubuntu
 
@@ -33,7 +33,6 @@ Adicione no final do .zshrc
 > zinit light zsh-users/zsh-autosuggestions
 > zinit light zsh-users/zsh-completions
 > zinit load zdharma-continuum/history-search-multi-word
-> zinit light "spaceship-prompt/spaceship-ember"
     
 > zinit self-update
 > zinit update --all
@@ -65,7 +64,7 @@ Configurando --> <https://starship.rs/config/>
 Mudando simbolos: <https://www.nerdfonts.com/cheat-sheet>
 Starship config: <https://starship.rs/presets/nerd-font>
 
-Meu Exemplo em starship.toml no repositório. Link: <https://github.com/ManoelFelipe/linux/blob/main/starship.toml>
+Meu Exemplo em starship.toml no repositório. [starship.toml](/starship.toml)
 
 Outro Exemplo: <https://fadeevab.com/my-configs-for-fancy-looking-terminal-starship-exa/>
 
@@ -79,10 +78,11 @@ Opcional: Spaceship --> https://spaceship-prompt.sh/config/intro/
     
 9) ALIAs
 > nano ~/.zshrc
-> alias list="exa --icons --group-directories-first -1 -laSghHF"
-> alias ll="ls -alF"
-> alias update="sudo apt-get update && sudo apt-get upgrade -y"
-> alias cls='clear'
+
+    alias list="exa --icons --group-directories-first -1 -laSghHF"
+    alias ll="ls -alF"
+    alias update="sudo apt-get update && sudo apt-get upgrade -y"
+    alias cls='clear'
 > source ~/.zshrc
 
 10) DOCKER --> Install Docker Engine on Ubuntu | Docker Docs

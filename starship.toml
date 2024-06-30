@@ -366,6 +366,7 @@ disabled = false
 
 [os.symbols]
 Ubuntu = ""
+#Arch = " "
 
 [package]
 format = '\[[$symbol$version]($style)\]'
