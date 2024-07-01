@@ -1,10 +1,12 @@
 # Guia para Ambiente de Desenvolvimento no Linux
 
-Para Ubuntu em: 
-> [ubuntu.md](/ubuntu.md)
+Atualmente estou usando mais o Arch Linux
 
 Para Arch em: 
 > [arch.md](/arch.md)
+
+Para Ubuntu em: 
+> [ubuntu.md](/ubuntu.md)
 
 Exemplo de configuração no starchip em: 
 > [starship.toml](/starship.toml)
