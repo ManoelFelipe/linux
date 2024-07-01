@@ -331,7 +331,8 @@ below is used to change the url of an existing remote repository:
 
 WSL - Export and Import
     
-> wsl --export Ubuntu_22.04-1 c:\Users\manoe\OneDrive\TI\ubuntu-22.04_13_09_23.tar    
+> wsl --export Ubuntu_22.04-1 c:\Users\manoe\OneDrive\TI\ubuntu-22.04_13_09_23.tar
+    
 > wsl --import Ubuntu_22.04-2 C:\Linux\Ubuntu_16_04_24 c:\Users\manoe\OneDrive\TI\WSL\ubuntu-22.04_16_04_24.tar
 
 > find ~/Project -type f -name "*.Identifier" -exec rm -f {} \;

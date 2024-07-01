@@ -29,10 +29,11 @@ Adicionando os plugins no zsh --> # abrir o arquivo de configurações o zsh
 > nano ~/.zshrc
 
 Adicione no final do .zshrc
-> zinit light zdharma-continuum/fast-syntax-highlighting
-> zinit light zsh-users/zsh-autosuggestions
-> zinit light zsh-users/zsh-completions
-> zinit load zdharma-continuum/history-search-multi-word
+
+    zinit light zdharma-continuum/fast-syntax-highlighting
+    zinit light zsh-users/zsh-autosuggestions
+    zinit light zsh-users/zsh-completions
+    zinit load zdharma-continuum/history-search-multi-word
     
 > zinit self-update
 > zinit update --all
@@ -84,18 +85,25 @@ Opcional: Spaceship --> https://spaceship-prompt.sh/config/intro/
     alias ll="ls -alF"
     alias update="sudo apt-get update && sudo apt-get upgrade -y"
     alias cls='clear'
+    
 > source ~/.zshrc
 
 10) DOCKER --> Install Docker Engine on Ubuntu | Docker Docs
+
 > sudo apt-get update
+
 > sudo apt-get install ca-certificates curl
+
 > sudo install -m 0755 -d /etc/apt/keyrings
+
 > sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 > sudo chmod a+r /etc/apt/keyrings/docker.asc
+
 > echo \
     "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
     $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
     sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
 > sudo apt-get update
 > sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
@@ -118,7 +126,9 @@ Nota:
 > sudo systemctl disable containerd.service
     
 11) Portainer --> <https://docs.portainer.io/start/install-ce/server/docker/linux>
+
 > docker volume create portainer_data
+
 > docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
 Verificando:
@@ -126,7 +136,9 @@ Verificando:
 > https://localhost:9443
     
 12) Conda-Forge - Miniforge --> https://github.com/conda-forge/miniforge
+
 > bash Miniforge3-Linux-x86_64.sh
+
 /home/manel/conda_forge/miniforge3
     
     # >>> conda initialize >>>
@@ -149,21 +161,30 @@ Verificando:
 
 Se precisar:    
 > nano /home/manel/.jupyter/jupyter_notebook_config.py
+
     ## The optional location of the settings schemas directory. If given, a handler
     #  will be added for settings.
     #  Default: ''
     c.LabServerApp.schemas_dir = '/home/manel'
     
 > conda activate base
+
 > conda deactivate
     
 > conda create --name env_01 --clone base
+
 > conda activate env_01
+
 > conda update --all
+
 > conda install notebook
+
 > conda install pandas
+
 > conda install scikit-learn
+
 > conda install scikit-learn-intelex
+
 > conda install statsmodels
 
 > jupyter notebook --no-browser
@@ -180,8 +201,11 @@ Se precisar:
 >  ssh -T git@github.com
 
 > git init
+
 > git config --global user.email "mfcf86@gmail.com"
+
 > git config --global user.name "ManoelFelipe"
+
 > git config --list
    
 below is used to add a new remote:
@@ -196,6 +220,7 @@ below is used to change the url of an existing remote repository:
 > git status
     
     # O git pull é um comando usado para atualizar suas branches locais de acordo com as branches remotas. Ele é uma combinação de dois comandos: git fetch seguido por git merge.
+
 > git pull origin main
     
 > git add .
@@ -205,9 +230,11 @@ below is used to change the url of an existing remote repository:
 14) WSL - Export and Import
     
 > wsl --export Ubuntu_22.04-1 c:\Users\manoe\OneDrive\TI\ubuntu-22.04_13_09_23.tar    
+
 > wsl --import Ubuntu_22.04-2 C:\Linux\Ubuntu_16_04_24 c:\Users\manoe\OneDrive\TI\WSL\ubuntu-22.04_16_04_24.tar
 
 
 15) Comando variados úteis
 > find ~/Projetos -type f -name "*.Identifier" -exec rm -f {} \;
+
 > find ~/Projetos -name "*.Identifier"
