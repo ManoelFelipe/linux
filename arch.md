@@ -72,6 +72,12 @@ Para isso precisamos **yay** - <https://github.com/Jguer/yay>
 
 > rm -rf yay
 
+Para atualizar com pacman e yay:
+> sudo pacman -Syu
+
+> yay -Syu
+
+
 ## 3) ZSH, Oh My ZSH ang pluguins
 
 Install ZSH - <https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH>
