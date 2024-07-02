@@ -308,6 +308,8 @@ Gosto de instalar em: /home/manel/conda_forge/miniforge3
 
 > jupyter notebook --no-browser
 
+> jupyter-lab --no-browser
+
 ## 9) ISSH e GIT_HUB
 
 Gerar a Chave
