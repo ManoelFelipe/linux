@@ -297,9 +297,13 @@ Gosto de instalar em: /home/manel/conda_forge/miniforge3
 > conda update --all
 
 > conda install notebook
+
 > conda install pandas
+
 > conda install scikit-learn
+
 > conda install scikit-learn-intelex
+
 > conda install statsmodels
 
 > jupyter notebook --no-browser
