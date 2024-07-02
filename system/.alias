@@ -1,0 +1,9 @@
+alias list="exa --icons --group-directories-first -1 -laSghHF"
+alias ll="ls -alF"
+#alias update="sudo apt-get update && sudo apt-get upgrade -y"
+alias cls='clear'
+alias ls='exa --icons'
+alias cat='bat'
+#alias find='fd'
+alias grep='rg'
+alias ps='procs'
