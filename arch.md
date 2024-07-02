@@ -319,7 +319,9 @@ Copiar a chave para o cadastrar no github
 > cat ~/.ssh/id_ed25519.pub
 
 > git config --global user.email "mfcf86@gmail.com"
+
 > git config --global user.name "ManoelFelipe"
+
 > git config --list
 
 Testar a conexão
