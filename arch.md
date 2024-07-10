@@ -358,4 +358,8 @@ WSL - Export and Import
 > find ~/Project -type f -name "*.Identifier" -exec rm -f {} \;
 > find ~/Project -name "*.Identifier"
 
+> yay -Syu
+
+> sudo pacman -Syu
+
 
