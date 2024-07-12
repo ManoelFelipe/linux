@@ -365,4 +365,4 @@ WSL - Export and Import
 
 > yay -Ps
 
-
+> df -h /
