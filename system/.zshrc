@@ -30,6 +30,16 @@ setopt HIST_NO_STORE             # Don't store history commands
 ###############################
 setopt correct
 
+######## Key_bindings ################################
+# HOME
+bindkey  "^[[H"   beginning-of-line
+# END
+bindkey  "^[[F"   end-of-line
+# DELETE
+bindkey  "^[[3~"  delete-char
+# https://wiki.archlinux.org/title/Zsh#Key_bindings
+######################################################
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
