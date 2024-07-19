@@ -10,3 +10,7 @@ Para Ubuntu em:
 
 Exemplo de configuração no starchip em: 
 > [starship.toml](/starship.toml)
+
+
+Prática em Git/Hub: 
+> [git_hub.md](/git_hub.md)
