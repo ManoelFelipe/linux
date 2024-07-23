@@ -14,3 +14,7 @@ Exemplo de configuração no starchip em:
 
 Prática em Git/Hub: 
 > [git_hub.md](/git_hub.md)
+
+
+Comando Linux: 
+> [linux.md](/linux.md)
