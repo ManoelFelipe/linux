@@ -288,27 +288,31 @@ Gosto de instalar em: /home/manel/conda_forge/miniforge3
 
 > conda activate base
 
-> conda create --name env_01 --clone base
+> conda create -n env_01
 
 > conda activate env_01
+
+> conda create -n tf tensorflow
 
 > conda deactivate
 
 > conda update --all
 
-> conda install notebook
+> conda instal notebook matplotlib plotly seaborn
 
-> conda install pandas
-
-> conda install scikit-learn
-
-> conda install scikit-learn-intelex
-
-> conda install statsmodels
+> conda install scikit-learn statsmodels
 
 > jupyter notebook --no-browser
 
 > jupyter-lab --no-browser
+
+> conda info --envs
+
+> conda remove --name env_01 --all
+
+> pip install --upgrade pip
+
+> conda update --all
 
 ## 9) Outros
 
@@ -318,14 +322,10 @@ WSL - Export and Import
     
 > wsl --import Ubuntu_22.04-2 C:\Linux\Ubuntu_16_04_24 c:\Users\manoe\OneDrive\TI\WSL\ubuntu-22.04_16_04_24.tar
 
-> find ~/Project -type f -name "*.Identifier" -exec rm -f {} \;
-
-> find ~/Project -name "*.Identifier"
-
 > sudo pacman -Syu
 
 > yay -Syu
 
 > yay -Ps
 
-> df -h /
+
