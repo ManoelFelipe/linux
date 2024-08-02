@@ -2,9 +2,10 @@
 # Comandos Linux Uteis
 
 
+> find ~/Project -name "*.Identifier"
+
 > find ~/Project -type f -name "*.Identifier" -exec rm -f {} \;
 
-> find ~/Project -name "*.Identifier"
 
 
 Comando du:
